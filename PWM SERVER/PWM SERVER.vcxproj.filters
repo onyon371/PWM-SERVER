@@ -18,5 +18,16 @@
     <ClCompile Include="main.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
+    <ClCompile Include="sql.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="includeSQL.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
