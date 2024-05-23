@@ -9,6 +9,7 @@ void login(string& answer)
 {
 	cout << "\nReading Data!\n";
 	answer = readData(key);
+	if (answer == "") answer = "NODATA";
 }
 
 void add_data(string& answer)
@@ -103,7 +104,7 @@ int main()
 			for (int i = 0; i < iResult; i++) messageINCOMING += recvbuf[i];
 
 			cout << "\nINCOMING MESSAGE: " << messageINCOMING;
-			
+			std::string ANSWER;
 			//DO SOMETHING
 			string operation = messageINCOMING.substr(0,10);
 			string rawData = messageINCOMING.substr(11);

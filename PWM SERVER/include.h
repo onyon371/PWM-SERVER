@@ -12,7 +12,7 @@
 
 using namespace std;
 #define DEFAULT_BUFLEN 256
-std::string ANSWER;
+
 
 void insertData(string key, string data, string info);
 string readData(string key);

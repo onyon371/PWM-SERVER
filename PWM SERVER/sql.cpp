@@ -26,10 +26,11 @@ void insertData(string key, string data, string info)
 
 		delete pstmt;
 		delete con;
+		//ANSWER = "SUCCESS";
 	}
 	catch (sql::SQLException e)
 	{
-		answer = "SUCCESS";
+		//ANSWER = "FAIL";
 		cout << "Could not connect to server. Error message: " << e.what() << endl;
 		system("pause");
 		exit(1);
