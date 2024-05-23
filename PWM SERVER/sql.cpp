@@ -3,7 +3,7 @@
 
 const string server = "127.0.0.1:3306";
 const string username = "root";
-const string password = "RppTl018!";
+const string password = "******";
 sql::Driver* driver;
 sql::Connection* con;
 sql::Statement* stmt;
